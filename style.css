@@ -86,6 +86,10 @@ button:hover {
     color: #000;
 }
 
+.hamburger {
+    display: none;
+}
+
 .hero {
     padding: 80px 0;
 }
@@ -1015,4 +1019,717 @@ footer .bottom div {
     width: 330px;
     display: flex;
     justify-content: space-between;
+}
+
+@media screen and (max-width: 480px) {
+
+    nav,
+    header .button {
+        display: none;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    header {
+        margin: 0 25px;
+        width: auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header p.logo {
+        font-size: 30px;
+        line-height: initial;
+    }
+
+    .hamburger {
+        display: flex;
+        gap: 7px;
+        flex-direction: column;
+    }
+
+    .hamburger div {
+        width: 30px;
+        height: 2px;
+        border-radius: 10px;
+        background-color: #54BD95;
+        display: flex;
+    }
+
+    .hero {
+        padding: 30px 0;
+    }
+
+    .hero .wrapper {
+        padding: 0 35px;
+        flex-direction: column;
+    }
+
+    .hero .wrapper .left {
+        width: 100%;
+    }
+
+    .hero .wrapper .left .text-content {
+        width: auto;
+    }
+
+    .hero .wrapper .left .text-content h1 {
+        width: 295px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 45px;
+    }
+
+    .hero .wrapper .left .text-content img {
+        width: 100%;
+    }
+
+    .hero .wrapper .left .text-content p {
+        width: auto;
+        text-align: center;
+        margin: 0 auto;
+        width: 305px;
+        font-size: 16px;
+    }
+
+    .hero .wrapper .left .buttons {
+        width: auto;
+        justify-content: space-around;
+    }
+
+    .hero .wrapper .left .buttons button {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .hero .wrapper .left .buttons div {
+        width: 120px;
+    }
+
+    .hero .wrapper .right {
+        margin: 20px auto 0;
+        width: 80%;
+        height: 480px;
+    }
+
+    .hero .wrapper .right .group-46 {
+        top: 320px;
+        left: -30px;
+        width: 45%;
+    }
+
+    .hero .wrapper .right .rectangle-34 {
+        top: 170px;
+        left: -50px;
+    }
+
+    .hero .wrapper .right .vector-25 {
+        top: 187px;
+        left: -35px;
+    }
+
+    .hero .wrapper .right .frame-45 {
+        position: absolute;
+        top: 255px;
+        left: 80%;
+        width: 35%;
+    }
+
+    .hero .wrapper .right .rectangle-38 {
+        position: absolute;
+        top: 100px;
+        left: -20%;
+        width: 60%;
+    }
+
+    .rectangle-38-text {
+        height: 40px;
+        top: 102px;
+        left: -15%;
+    }
+
+    .rectangle-38-text p.light {
+        font-size: 10px;
+        width: fit-content;
+    }
+
+    .rectangle-38-text p.dark {
+        font-size: 14px;
+    }
+
+    .rectangle-38-text button {
+        top: -35px;
+        font-size: 12px;
+    }
+
+    .rectangle {
+        width: 130px;
+    }
+
+    .hero .wrapper .right .group-59 {
+        position: absolute;
+        top: 90px;
+        left: 90%;
+        width: 20%;
+    }
+
+    .hero .wrapper .right .group-48 {
+        position: absolute;
+        top: 380px;
+        left: 150px;
+        width: 20%;
+    }
+
+    .hero .company {
+        padding: 35px;
+        width: auto;
+    }
+
+    .hero .company p {
+        line-height: initial;
+        width: 270px;
+        margin: 0 auto 40px auto;
+        font-size: 30px;
+    }
+
+    .hero .company .logo {
+        flex-direction: column;
+        width: 140px;
+        margin: 0 auto;
+    }
+
+    .hero .company .logo img {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .hero .company .logo img:last-child {
+        margin-bottom: 0;
+    }
+
+    section.first {
+        height: auto;
+    }
+
+    section.first .wrapper {
+        padding: 60px 35px;
+        flex-direction: column;
+    }
+
+    section.first .wrapper .left {
+        width: auto;
+    }
+
+    section.first .wrapper .left .text-content {
+        width: auto;
+        text-align: center;
+    }
+
+    section.first .wrapper .left .text-content article h2 {
+        font-size: 30px;
+        width: 275px;
+        margin: 0 auto;
+    }
+
+    section.first .wrapper .left .text-content article p {
+        font-weight: 300;
+    }
+
+    section.first .wrapper .left .text-content .ratings {
+        width: auto;
+    }
+
+    section.first .wrapper .left .text-content .ratings .rating {
+        width: 120px;
+    }
+
+    section.first .wrapper .left .text-content .ratings .rating .stars img {
+        width: 15%;
+    }
+
+    section.first .wrapper .left .text-content .ratings .rating .rating-text p.light {
+        font-weight: 400;
+    }
+
+    section.first .wrapper .right {
+        width: auto;
+        margin-top: 35px;
+    }
+
+    section.first .wrapper .right .row {
+        margin-bottom: 30px;
+        gap: 30px;
+    }
+
+    section.first .wrapper .right .row img {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    section.first .wrapper .right .row article h3 {
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 5px;
+        width: fit-content;
+    }
+
+    section.first .wrapper .right .row article p {
+        width: auto;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    section.features {
+        padding: 100px 35px;
+    }
+
+    section.features .text-content {
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+        text-align: center;
+    }
+
+    section.features .text-content p.heading {
+        font-size: 30px;
+        line-height: initial;
+        width: 190px;
+    }
+
+    section.features .text-content p.desc {
+        width: auto;
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    section.features .wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.features .wrapper .card {
+        width: 300px;
+        margin-bottom: 35px;
+    }
+
+    section.features .wrapper .card:last-child {
+        margin-bottom: 0;
+    }
+
+    section.features .wrapper .card img {
+        width: 100%;
+    }
+
+    section.features .wrapper .card article {
+        width: auto;
+        text-align: center;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    section.features .wrapper .card article h2 {
+        font-weight: 400;
+        padding-bottom: 15px;
+    }
+
+    section.features .wrapper .card article p {
+        font-weight: 300;
+    }
+
+    section.benefits {
+        padding: 0 35px;
+    }
+
+    section.benefits .wrapper {
+        flex-direction: column;
+    }
+
+    section.benefits .wrapper .left {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    section.benefits .wrapper .left .text-content {
+        width: auto;
+        max-width: 340px;
+    }
+
+    section.benefits .wrapper .left .text-content h2 {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: initial;
+        text-align: center;
+        width: 250px;
+        margin: 0 auto;
+    }
+
+    section.benefits .wrapper .left .text-content .row {
+        padding: 0;
+        margin-top: 60px;
+    }
+
+    section.benefits .wrapper .left .text-content .row .group h3 {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+
+    section.benefits .wrapper .right {
+        width: 80%;
+        height: 400px;
+        margin: 0 auto;
+    }
+
+    section.benefits .wrapper .right .rectangle-58 {
+        width: 80%;
+        top: 65px;
+        left: -35px;
+    }
+
+    section.benefits .wrapper .right .rectangle-58-text {
+        top: 77px;
+        left: -25px;
+        width: auto;
+        gap: 5px;
+        grid-template-columns: 35px 105px 25px;
+    }
+
+    section.benefits .wrapper .right .rectangle-58-text img {
+        width: 80%;
+    }
+
+    section.benefits .wrapper .right .rectangle-58-text .text {
+        height: fit-content;
+        justify-content: initial;
+        width: fit-content;
+    }
+
+    section.benefits .wrapper .right .rectangle-58-text .text h4 {
+        font-size: 12px;
+    }
+
+    section.benefits .wrapper .right .rectangle-58-text .text p.light {
+        font-size: 10px;
+    }
+
+    section.benefits .wrapper .right .group-114 {
+        top: 81%;
+        left: -10%;
+        width: 70%;
+    }
+
+    section.benefits .wrapper .right .rrectangle-38 {
+        top: 120px;
+        left: 70%;
+        width: 45%;
+    }
+
+    section.benefits .wrapper .right .rrectangle-38-text {
+        top: 130px;
+        left: 75%;
+        width: 80px;
+        height: 33px;
+    }
+
+    section.benefits .wrapper .right .rrectangle-38-text p.light {
+        font-size: 10px;
+    }
+
+    section.benefits .wrapper .right .rrectangle-38-text h4 {
+        font-size: 12px;
+    }
+
+    section.benefits .wrapper .right .group-113 {
+        top: 180px;
+        left: -20%;
+        width: 15%;
+    }
+
+    section.plans {
+        padding: 35px;
+        background-size: cover;
+    }
+
+    section.plans article {
+        width: auto;
+    }
+
+    section.plans article h2 {
+        font-size: 30px;
+        font-weight: 600;
+        width: 290px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: initial;
+    }
+
+    section.plans article p {
+        padding: 20px 0 10px;
+        font-weight: 300;
+    }
+
+    section.plans article .buttons {
+        width: auto;
+    }
+
+    section.plans article .button-wrapper {
+        width: 90%;
+        justify-content: space-around;
+    }
+
+    section.plans article .buttons button.transparent {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    section.plans article .buttons button.coloured {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    section.plans .rows-wrapper {
+        height: auto;
+        flex-direction: column;
+    }
+
+    section.plans .rows-wrapper .card-small {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    section.plans .rows-wrapper .card-small:last-child {
+        margin-bottom: 0;
+    }
+
+    section.plans .rows-wrapper .card-small .text-content h2.heading {
+        font-weight: 500;
+    }
+
+    section.plans .rows-wrapper .card-small .text-content p.desc {
+        padding: 10px 0;
+        font-weight: 300;
+    }
+
+    section.plans .rows-wrapper .card-small .text-content .value {
+        margin-bottom: 20px;
+    }
+
+    section.plans .rows-wrapper .card-small .text-content .rows {
+        width: 265px;
+    }
+
+    section.plans .rows-wrapper .card-small .text-content .rows .row h4 {
+        font-size: 14px;
+        font-weight: 300;
+        width: auto;
+    }
+
+    section.plans .rows-wrapper .card-small .text-content .rows .button {
+        width: 220px;
+    }
+
+    section.plans .rows-wrapper .card-small.center {
+        background-position: 0px 120px;
+        background-size: 100% 100%;
+        width: 100%;
+        height: 655px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section.plans .rows-wrapper .card-small.card-small.center .text-content .rows {
+        padding: 25px;
+        width: 265px;
+    }
+
+    footer {
+        padding: 130px 35px 0 35px;
+    }
+
+    footer .wrapper {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 50px;
+    }
+
+    footer .left-top {
+        width: 100%;
+        height: fit-content;
+    }
+
+    footer .left-top article {
+        width: auto;
+    }
+
+    footer .left-top article h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        width: 270px;
+        margin: 0 auto;
+    }
+
+    footer .left-top article p {
+        padding: 0;
+        margin: 20px 0;
+        font-size: 14px;
+    }
+
+    footer .text .img {
+        width: fit-content;
+    }
+    footer .text .img img {
+        width: 20%;
+    }
+
+    footer .left-top .text p {
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    footer .left-top .text p:last-child {
+        width: fit-content;
+    }
+
+    footer .left-top .users-img {
+        padding: 0;
+        margin-top: 15px;
+        justify-content: space-around;
+    }
+
+    footer .left-top .users-img img {
+        width: 15%;
+    }
+
+    footer .right-top {
+        width: 250px;
+        height: auto;
+        padding: 20px 25px;
+    }
+
+    footer .right-top .logo {
+        width: 100px;
+    }
+
+    footer .right-top .logo img {
+        width: 50%;
+    }
+    footer .right-top .logo h4 {
+        font-size: 18px;
+        margin: 0 auto;
+        padding-top: 5px;
+    }
+
+    footer .right-top form {
+        height: auto;
+    }
+
+    footer .right-top form .row label {
+        font-size: 14px;
+        padding: 10px 0 5px 0;
+    }
+
+    footer .right-top form .row:first-child input {
+        line-height: 30px;
+        border-radius: 5px;
+    }
+
+    footer .right-top form .row input {
+        line-height: 50px;
+    }
+
+    footer .right-top form .row input::placeholder {
+        position: relative;
+        top: 0px;
+    }
+
+    footer .right-top form .button {
+        width: 60%;
+        height: 30px;
+        margin: 10px auto;
+    }
+
+    footer .right-top form .button h4 {
+        font-size: 12px;
+        font-weight: 300;
+        width: fit-content;
+    }
+
+    footer .right-top form p {
+        width: fit-content;
+        font-size: 10px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    footer .left-bottom {
+        width: 100%;
+        height: auto;
+    }
+
+    footer .left-bottom article h2 {
+        font-size: 30px;
+        width: fit-content;
+    }
+
+    footer .left-bottom article p {
+        padding: 10px 0;
+        font-size: 14px;
+    }
+
+    footer .left-bottom .textarea {
+        height: 40px;
+        border: 1px solid #A6A6A6;
+    }
+
+    footer .left-bottom .textarea p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    footer .left-bottom .textarea img {
+        padding: 5px;
+    }
+
+    footer .right-bottom {
+        width: 100%;
+        height: auto;
+        grid-template-columns: auto auto auto;
+    }
+
+    footer .right-bottom .col h4 {
+        font-size: 13px;
+        width: fit-content;
+        margin-bottom: 15px;
+    }
+
+    footer .right-bottom .col ul li {
+        font-size: 10px;
+        margin-bottom: 10px;
+        width: fit-content;
+    }
+
+    footer .bottom {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer .bottom p {
+        font-size: 10px;
+        line-height: initial;
+    }
+
+    footer .bottom div {
+        width: 185px;
+        padding: 10px 0;
+    }
 }
